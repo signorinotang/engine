@@ -14,7 +14,9 @@ using namespace ts;
 int main(int argc, const char * argv[])
 {
     Log::instance().addPrinter(tsnew LogPrinterSTDOUT(), false);
-  
+    TS_LOG_INFO("Hello World!!")
+
+    
     return 0;
 }
 
